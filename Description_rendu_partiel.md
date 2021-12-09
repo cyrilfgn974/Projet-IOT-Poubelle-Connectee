@@ -10,3 +10,4 @@ Les obejctifs pour le rendu partiel sont les suivants :
 - Communication entre Raspberry et Arduino. Par exemple via ce [tutoriel](https://www.aranacorp.com/fr/communication-serie-entre-raspberry-pi-et-arduino/).
 - Première interface web pour intéragir avec la base de donnée d'OpenFoodFact. L'interface web servira de complément à l'écran LCD, comportera des logs et des infos sur les produits scannés.
 - Début du montage.
+hello
