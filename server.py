@@ -25,7 +25,7 @@ def from_off(codeBarre):
 def get_name(codeBarre):
     resp = from_off(codeBarre)
     nomProduit = resp['product']['product_name']
-    return json.dumps(nomProduit)
+    return json.dumps(nomProduit).strip("\"")
 
 @app.route("/api/getproduitimage/<string:codeBarre>.json", methods=["GET"])
 def get_image(codeBarre):
